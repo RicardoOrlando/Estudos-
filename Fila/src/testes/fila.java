@@ -40,13 +40,20 @@ public class fila {
 		
 		System.out.println(primeiroElementoOuErro);
 		
-		filaBanco.clear();
+	    //filaBanco.clear();
 		
-		primeiroElementoOuErro = filaBanco.isEmpty();
+		//primeiroElementoOuErro = filaBanco.isEmpty();
 		
 		System.out.println(primeiroElementoOuErro);
 		
+		//retornar o tamanho da fila
+		int tamanho = filaBanco.size();
+		System.out.println(tamanho);
 		
+		
+		//as filas não permitem certos tipos de alterações principalmente as que alteram
+		// a sequencia da fila, a fila mantemse sempre em ordem, o primeiro que entra 
+		// é o primeiro que sai
 		
 		
 		
